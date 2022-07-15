@@ -14,9 +14,7 @@ import simple.spring.service.config.SampleRestConfig;
         service = javax.servlet.Servlet.class
 )
 public class SpringRestServletComponent extends org.springframework.web.servlet.DispatcherServlet {
-    /**
-	 * 
-	 */
+
 	private static final long serialVersionUID = -4511556505467130357L;
 
 	@Override

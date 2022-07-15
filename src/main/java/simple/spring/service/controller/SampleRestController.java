@@ -21,7 +21,7 @@ public class SampleRestController {
 	
 	@RequestMapping(value = "/api/samples", method = RequestMethod.GET)
     public ResponseEntity<List<String>> getSamples() {
-        List<String> samples = Arrays.asList("Uno", "Dos", baseUrl);
+        List<String> samples = Arrays.asList("Uno", "Dos - updated", baseUrl);
 
         return new ResponseEntity<>(samples, HttpStatus.OK);
     }
