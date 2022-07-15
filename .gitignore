@@ -4,8 +4,8 @@ build/
 target/
 
 # Eclipse project
-.project
-.settings
+# .project
+# .settings
 bin
 
 # Created by https://www.gitignore.io/api/java,gradle
